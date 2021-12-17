@@ -292,6 +292,6 @@ callback!(
     return figure, figure2, figure3;
 end;
 
-port = parse(Int64, ENV["PORT"]);
 
-run_server(app, "0.0.0.0", port)
+
+run_server(app, "0.0.0.0")
